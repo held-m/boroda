@@ -1,0 +1,92 @@
+#app{
+    min-height:100%;
+    position:relative;
+}
+#head {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: raw;
+    justify-content: center;
+    width: 100%;
+    background-color: #36393f;
+    height: 100px;
+}
+
+.logo {
+    width: 100px;
+
+}
+
+#menu{
+    width: 100%;
+    background-color: #5a6268;
+    padding: 5px 0;
+}
+
+#menuMIco{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+
+}
+
+#content{
+    min-height:100%;
+    position:relative;
+    padding: 0 0 100px 0;
+    overflow: hidden;
+}
+#content a{
+    color: black;
+}
+.description{
+    background-color: #ffffff;
+}
+.godnota{
+    background-color: #dedede;
+    width: 100%;
+    color: #3a3939;
+}
+.wraper{
+    max-width:800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.links{
+    background-color: #ffffff;
+}
+.listLinks{
+    margin: 35px auto;
+    text-align: center;
+
+}
+.listLinks a{
+    margin: 10px;
+}
+
+.listLinks img{
+    width: 80px;
+    margin: 10px;
+}
+
+.listGodnota li{
+    text-align: center;
+    margin: 5px 0;
+}
+.contact{
+    background-color: #dedede;
+    width: 100%;
+    color: #3a3939;
+}
+.contact p{
+    text-align: center;
+    font-size: 0.7em;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;
+    background-color: #36393f;
+}
